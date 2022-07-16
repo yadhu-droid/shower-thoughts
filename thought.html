@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shower Thoughts</title>
+</head>
+<style>
+	@font-face { font-family: helvetica; src: url('Helvetica-Medium.ttf'); }
+	*{
+		background-color: #fafafa;
+		font-family: helvetica;
+	}
+	.main{
+		margin-right: 30%;
+		margin-left: 30%;
+		margin-top: 5%;
+		text-align: center;
+	}
+	.head{
+		font-size: 50px;
+		font-weight: bold;
+		color: #444;
+		animation-name: images;
+		animation-timing-function: ease-in-out;
+		animation-duration: 2s;
+		animation-direction: alternate;
+	}
+	.sub{
+		font-size: 15px;
+		color: #a7aba8;
+		padding-top: 2em;
+		animation-name: images;
+		animation-timing-function: ease-in-out;
+		animation-duration: 2s;
+		animation-direction: alternate;
+	}
+	.sub2{
+		font-size: 12px;
+		font-weight: bold;
+		color: #444;
+		padding-top: 2em;
+	}
+	.image{
+		padding-left: 2em;
+		animation-name: images;
+		animation-timing-function: ease-in-out;
+		animation-duration: 2s;
+		animation-direction: alternate;
+	}
+	
+	@keyframes images{
+    from { opacity: 0; }
+    to { opacity: 1; }
+	}
+
+
+	.collection{
+		padding-top: 2em;
+	}
+	.content{
+		padding:3em;
+		background-color: white;
+		border: solid;
+		border-color: #d9dbda;
+		border-width: thin;
+		border-radius: 15px;
+		text-align: left;
+		line-height: 1.7em;
+	}
+	.buttons{
+		padding:1em;
+	}
+	.left{
+		float: left;
+	}
+	.right{
+		float: right;
+	}
+	.button{
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		padding-right: 1.5em;
+		padding-left: 1.5em;
+		border: solid;
+		border-radius: 10px;
+		border-color: #d9dbda;
+		font-size: 16px;
+		cursor: pointer;
+	}
+	.none{
+		height: 2em;
+		clear: both;
+	}
+</style>
+<body>
+	<div class="main">
+		<img class="image" src="https://64.media.tumblr.com/avatar_07fc7c545a94_128.pnj"><br>
+		<div class="head">Just Shower Thoughts</div>
+		<div class="sub">Thoughts from the shower</div>
+		<div class="sub2">BEST OF SHOWER THOUGHTS</div>
+		<div class="collection">
+			<div class="content">People ‘mic drop’ so they don’t have to answer questions about their rant afterwards</div><br><br>
+			<div class="content">Somebody is probably mad at you for taking away their username</div><br><br>
+			<div class="content">If Microsoft’s only product was Excel, they’d still be a massive company</div><br><br>
+			<div class="content">Superhero stories have become less about saving people and more about fighting villains</div><br><br>
+			<div class="content">The more science and technology advances, the harder and lengthier an average human’s education becomes</div><br><br>
+		</div>
+	</div>
+	<div class="buttons">
+			<div class="left"></div>
+			<div class="right"><button class="button" onclick="location.href='thought2.html'" type="button">Next</button></div>
+	</div>
+	<div class="none"></div>
+</body>
+</html>
